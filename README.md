@@ -1,4 +1,4 @@
-<img src="rru-bnr.png" width="100%">
+<img src="rru-bnr.png" width="100%" height="100%">
 
 # <div align="center">🚀 **Navigator**  
 ### Cyborg‑Live Onboarding & README‑Generation Hub</div>
