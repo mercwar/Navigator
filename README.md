@@ -1,14 +1,29 @@
-<img src="rru-bnr.png" width="100%" height="100%">
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
+<img 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
+    alt="Mercwar Constellation" 
+    style="width:100%; height:auto;"
+/>
+</a>
 
-# <div align="center">🚀 **Navigator**  
-### Cyborg‑Live Onboarding & README‑Generation Hub</div>
+# 🚀 **CYBORG LIVE EX MD - Navigator**  
+### Constellation Onboarding & README‑Generation Hub</div>
+
+<a href="https://mercwar.github.io/Navigator/index.html" title="Use Cyborg Live EX MD FREE!">
+<img src="rru-bnr.png" width="100%" height="100%">
+</a>
 
 ---
+
 
 ## 🌐 **What Navigator Is**
 Navigator is the central onboarding hub for the Cyborg‑Live ecosystem. It teaches new users how to join every repo in the network and walks them through setup using clear, step‑by‑step instructions. Navigator also shows how to generate README files using Cyborg‑Live EX/MD templates, guiding creators through building structured, recursive documentation with automated sections, metadata blocks, and live‑linked repo registration. It’s the starting point for learning the workflow, connecting accounts, and publishing fully‑formatted README files across the entire Mercwar constellation.
 
 ---
+
+<a href="https://mercwar.github.io/Navigator/index.html" title="Use Cyborg Live EX MD FREE!">
+<img src="rru-nav.png" width="100%" height="100%">
+</a>
 
 ## ⚡ **Core Features**
 
