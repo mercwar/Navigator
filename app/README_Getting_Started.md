@@ -4,7 +4,8 @@
    PURPOSE: Introductory onboarding chapter  
    AUTHOR: Demon (CVBGOD)  
 -->
-
+- [Back to TOC](./README.md)
+  
 # Getting Started • MERCWAR AI
 
 ## 🚀 What This Ecosystem Is
