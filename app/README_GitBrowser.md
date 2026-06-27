@@ -1,10 +1,10 @@
-/*  
+<!-- 
    AIFVS-ARTIFACT  
    AVIS FILE: README_GitBrowser.md  
    PURPOSE: CYBORG-LIVE-GIT-BROWSER documentation  
    AUTHOR: Demon (CVBGOD)  
    NOTES: Live file tree + raw viewer  
-*/
+-->
 
 # CYBORG‑LIVE‑GIT‑BROWSER • Web-Based Repo Explorer
 

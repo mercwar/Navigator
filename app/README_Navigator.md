@@ -1,10 +1,10 @@
-/*  
+<!--
    AIFVS-ARTIFACT  
    AVIS FILE: README_Navigator.md  
    PURPOSE: Navigator documentation wizard  
    AUTHOR: Demon (CVBGOD)  
    NOTES: JSON + Markdown generator  
-*/
+-->
 
 # Navigator Wizard • Documentation Builder
 

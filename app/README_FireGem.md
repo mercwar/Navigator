@@ -1,10 +1,10 @@
-/*  
+<!-- 
    AIFVS-ARTIFACT  
    AVIS FILE: README_FireGem.md  
    PURPOSE: Fire-Gem GGUF runtime + FIRE-PUNK console  
    AUTHOR: Demon (CVBGOD)  
    NOTES: Local offline LLM execution  
-*/
+-->
 
 # Fire‑Gem • Local GGUF AI Runtime
 

@@ -1,10 +1,10 @@
-/*  
+<!-- 
    AIFVS-ARTIFACT  
    AVIS FILE: README_AVIS.md  
    PURPOSE: AVIS schema law + Sentinel compliance  
    AUTHOR: Demon (CVBGOD)  
    NOTES: Identity, compliance, manifest rules  
-*/
+-->
 
 # AVIS Standard • Schema Law & Compliance
 

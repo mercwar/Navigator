@@ -1,10 +1,10 @@
-/*  
+<!--
    AIFVS-ARTIFACT  
    AVIS FILE: README_Cyborg.md  
    PURPOSE: Cyborg Win64 automation kernel overview  
    AUTHOR: Demon (CVBGOD)  
    NOTES: EVL, WM_USER, deterministic dispatch  
-*/
+-->
 
 # Cyborg Engine • Deterministic Win64 Automation
 

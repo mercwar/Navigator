@@ -1,10 +1,10 @@
-/*  
+<!-- 
    AIFVS-ARTIFACT  
    AVIS FILE: README_Constellation.md  
    PURPOSE: Constellation routing + portal navigation  
    AUTHOR: Demon (CVBGOD)  
    NOTES: Fire-Star / Ice-Star / Void-Star overview  
-*/
+-->
 
 # Constellation Navigation • MERCWAR Portal Matrix
 

@@ -1,10 +1,9 @@
-/*  
+<!-- 
    AIFVS-ARTIFACT  
    AVIS FILE: README_Getting_Started.md  
    PURPOSE: Introductory onboarding chapter  
    AUTHOR: Demon (CVBGOD)  
-   NOTES: Linked from Master Gateway  
-*/
+-->
 
 # Getting Started • MERCWAR AI
 

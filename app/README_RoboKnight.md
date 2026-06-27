@@ -1,10 +1,10 @@
-/*  
+<!-- 
    AIFVS-ARTIFACT  
    AVIS FILE: README_RoboKnight.md  
    PURPOSE: Visual asset layer overview  
    AUTHOR: Demon (CVBGOD)  
    NOTES: Gallery + inventory sources  
-*/
+-->
 
 # Robo‑Knight Visual Universe
 
