@@ -1,23 +1,119 @@
-<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
-<img 
-    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
-    alt="Mercwar Constellation" 
+<!--
+  AIFVS-ARTIFACT
+  AVIS FILE: README_NavigatorApp_Notice.md
+  PURPOSE: Gateway notice + Navigator App vs Cyborg Live EX MD clarification
+  AUTHOR: Demon (CVBGOD)
+-->
+
+<!-- GATEWAY IMAGE LINK -->
+<a target="_self"
+   title="CLICK HERE to ENTER the GATEWAY FREE!"
+   href="https://mercwar.github.io/Constellation/index.html">
+  <img
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png"
+    alt="Mercwar Constellation Gateway"
     style="width:100%; height:auto;"
-/>
+  />
 </a>
 
-# 🚀 **CYBORG LIVE EX MD - Navigator**  
-### Constellation Onboarding & README‑Generation Hub</div>
+---
+
+## 📘 **Visit the Official Navigator App**
+
+✨ <a href="app/README.md" title="Use Cyborg Live EX MD FREE!">
+  <strong>Click here</strong>
+</a>
+to open the Navigator App.
+
+<br/>
+
+<a href="app/README.md" title="Use Cyborg Live EX MD FREE!">
+  <img
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%2010/Copilot_20260627_053736.png"
+    alt="Navigator App Preview"
+    style="width:100%; height:auto;"
+  />
+</a>
+
+<br/>
+
+---
+
+
+## 🧭 What the Navigator App Is
+
+The **Navigator App** is a **separate publication** from **Cyborg Live EX MD**.
+
+It is a **zero‑installation, browser‑based learning guide** designed to help users:
+
+- Explore MERCWAR safely  
+- Understand the ecosystem step‑by‑step  
+- Navigate portals, dashboards, and tools  
+- Read structured documentation without installing anything  
+
+The Navigator App is your **interactive README application** —  
+a friendly, guided tour of the MERCWAR universe.
+
+---
+
+# 🚀 CYBORG LIVE EX MD — Navigator  
+### Constellation Onboarding & README‑Generation Hub
+
+<!-- NAVIGATOR APP PREVIEW IMAGE -->
+
 
 <a href="https://mercwar.github.io/Navigator/index.html" title="Use Cyborg Live EX MD FREE!">
 <img src="rru-bnr.png" width="100%" height="100%">
 </a>
 
+## ⚙️ What Cyborg Live EX MD Is
+
+**Cyborg Live EX MD** is **software**, not a tutorial.
+
+It is used to:
+
+- Generate README files  
+- Produce AVIS‑compliant documentation  
+- Create structured manifests for LLM parsing  
+- Build machine‑readable project descriptions  
+
+Where the Navigator App teaches users **how to surf MERCWAR**,  
+Cyborg Live EX MD is the **tool that builds the surfboards**.
+
+---
+
+## 🌐 Why They Are Separate
+
+Keeping them separate ensures:
+
+- Users can learn MERCWAR without installing anything  
+- Developers can generate documentation using Cyborg Live EX MD  
+- The README application stays lightweight and readable  
+- The ecosystem remains approachable for newcomers  
+
+**Navigator = Guided Tour**  
+**Cyborg Live EX MD = Documentation Engine**
+
 ---
 
 
+
+
+---
+
 ## 🌐 **What Navigator Is**
-Navigator is the central onboarding hub for the Cyborg‑Live ecosystem. It teaches new users how to join every repo in the network and walks them through setup using clear, step‑by‑step instructions. Navigator also shows how to generate README files using Cyborg‑Live EX/MD templates, guiding creators through building structured, recursive documentation with automated sections, metadata blocks, and live‑linked repo registration. It’s the starting point for learning the workflow, connecting accounts, and publishing fully‑formatted README files across the entire Mercwar constellation.
+
+Navigator is the **central onboarding hub** of the Cyborg‑Live ecosystem. It guides new users through every major MERCWAR subsystem using a clear, step‑by‑step learning flow. As users explore, Navigator teaches them how to join repos, understand the workflow, and interact with the ecosystem safely — all inside the browser, with **zero installation required**.
+
+Navigator also includes the **Cyborg‑Live EX/MD documentation engine**, allowing creators to generate structured README files using automated templates. These templates support:
+
+- Recursive documentation layouts  
+- Metadata blocks  
+- AVIS‑compliant schema formatting  
+- Live‑linked repo registration  
+
+Navigator is the **starting point** for learning MERCWAR, connecting accounts, and publishing fully‑formatted documentation across the entire constellation.
+
 
 ---
 
@@ -38,7 +134,7 @@ Everything is visual, interactive, and beginner‑safe.
 
 ---
 
-<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%2010/Copilot_20260627_053736.png" width="100%" height="100%">
+
 
 
 
@@ -98,10 +194,38 @@ Navigator pushes your README to:
 ---
 
 ## 🛰️ **Why Navigator Exists**
-The Cyborg‑Live ecosystem is powerful — but only if users understand how to join, sync, and publish across multiple repos. Navigator removes friction by giving everyone a **single place to learn, build, and launch**.
+
+Navigator exists to make the Cyborg‑Live ecosystem **accessible, understandable, and friction‑free**.  
+The MERCWAR constellation is powerful — but only when users know how to:
+
+- join repos  
+- sync their identity  
+- generate documentation  
+- publish structured manifests  
+- navigate portals safely  
+
+Navigator removes all onboarding complexity by giving everyone a **single place to learn, build, and launch**.  
+It is the guided entry point for new explorers and the documentation cockpit for creators.
 
 ---
 
 ## 📌 **Status**
-Navigator is actively maintained and updated as new repos join the Mercwar constellation.
+
+Navigator is **actively maintained** and updated as new repos join the Mercwar constellation.  
+All changes follow AVIS compliance rules and Sentinel validation standards.
+
+---
+
+## ⚖️ **Legal & Usage Notice**
+
+© **MERCWAR / CVBGOD / Demon — All Rights Reserved**  
+This documentation is provided for **educational and onboarding purposes** within the MERCWAR / Cyborg‑Live ecosystem.
+
+- The Navigator App is a **browser‑based learning interface**.  
+- Cyborg‑Live EX/MD is a **separate software tool** used for generating structured documentation.  
+- No installation, compilation, or execution of local binaries is required to use the Navigator App.  
+- All assets, schemas, and instructional materials are part of the MERCWAR constellation and may not be redistributed without explicit permission from **CVBGOD / Demon**.  
+- AVIS‑compliant schemas, manifests, and metadata blocks must remain intact when used for LLM parsing or automated ingestion.
+
+Use of this documentation implies acceptance of the MERCWAR ecosystem’s structural, compliance, and routing standards.
 
