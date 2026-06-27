@@ -38,6 +38,10 @@ Everything is visual, interactive, and beginner‑safe.
 
 ---
 
+<img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%2010/Copilot_20260627_053736.png" width="100%" height="100%">
+
+
+
 ### 🔹 **Cyborg‑Live EX/MD README Builder**
 The EX/MD engine lets users:
 - Build recursive README structures  
