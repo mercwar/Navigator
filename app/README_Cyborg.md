@@ -5,7 +5,8 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: EVL, WM_USER, deterministic dispatch  
 -->
-
+- [Back to TOC](./README.md)
+  
 # Cyborg Engine • Deterministic Win64 Automation
 
 The Cyborg engine is a pure‑C automation kernel.
