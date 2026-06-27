@@ -5,6 +5,7 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: Identity, compliance, manifest rules  
 -->
+- [Back to TOC](./README.md)
 
 # AVIS Standard • Schema Law & Compliance
 
