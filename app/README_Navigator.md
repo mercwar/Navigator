@@ -5,7 +5,8 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: JSON + Markdown generator  
 -->
-
+- [Back to TOC](./README.md)
+  
 # Navigator Wizard • Documentation Builder
 
 Navigator generates:
