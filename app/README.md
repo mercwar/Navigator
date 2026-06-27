@@ -1,10 +1,10 @@
-/*  
+<!-- 
    AIFVS-ARTIFACT  
    AVIS FILE: README.md  
    PURPOSE: Master Gateway for MERCWAR Browsable Documentation  
    AUTHOR: Demon (CVBGOD)  
    NOTES: Zero-installation entry point  
-*/
+-->
 
 # MERCWAR AI • CYBORG‑LIVE • Zero‑Installation Guide
 
