@@ -5,7 +5,8 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: Fire-Star / Ice-Star / Void-Star overview  
 -->
-
+- [Back to TOC](./README.md)
+  
 # Constellation Navigation • MERCWAR Portal Matrix
 
 The Constellation system is your visual routing engine.
