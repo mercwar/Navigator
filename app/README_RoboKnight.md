@@ -5,7 +5,8 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: Gallery + inventory sources  
 -->
-
+- [Back to TOC](./README.md)
+  
 # Robo‑Knight Visual Universe
 
 This is the asset layer powering:
