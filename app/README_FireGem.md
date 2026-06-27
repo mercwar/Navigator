@@ -5,7 +5,8 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: Local offline LLM execution  
 -->
-
+- [Back to TOC](./README.md)
+  
 # Fire‑Gem • Local GGUF AI Runtime
 
 Fire‑Gem powers the FIRE‑PUNK console.
