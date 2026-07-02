@@ -40,7 +40,7 @@ This documentation app lets you explore every subsystem directly in your browser
 />
 </a>
 
-## 🌐 Zero‑Installation Promise
+## 🌐 Zero‑Installation Browsing
 
 Everything in MERCWAR can be explored:
 - In your browser  
