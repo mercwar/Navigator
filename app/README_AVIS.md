@@ -5,7 +5,12 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: Identity, compliance, manifest rules  
 -->
-- [Back to TOC](./README.md)
+## 🔗 Avis GUID >>
+
+- [Home](../README.md)
+- [TOC](./README.md)
+- [Next Up-Link: Git‑Browser](./README_GitBrowser.md) 
+
 
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
 <img 
@@ -30,5 +35,19 @@ AVIS defines how repositories must be structured.
 - Entry Points Resolved  
 - Schema Compliant  
 
-## 🔗 Continue
-- [Git‑Browser](./README_GitBrowser.md)
+
+## 🔗 Avis GUID >>
+
+- [Home](../README.md)
+- [TOC](./README.md)
+- [Next Up-Link: Git‑Browser](./README_GitBrowser.md) 
+
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com">
+<img 
+    src="Copilot_20260702_022636.png" 
+    alt="Mercwar AI" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+---
