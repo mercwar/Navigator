@@ -7,7 +7,8 @@
 -->
 
 ## 🔗 Avis GUID >>
-- [Home](../README.md) 
+- [Home](../README.md)
+- [TOC](./README.md)
 - [Next Up-Link: Cyborg Engine](./README_Cyborg.md)
   
 
@@ -35,7 +36,8 @@ Browse your repositories directly in the browser.
 ---
 
 ## 🔗 Avis GUID >>
-- [Home](../README.md) 
+- [Home](../README.md)
+- [TOC](./README.md)
 - [Next Up-Link: Cyborg Engine](./README_Cyborg.md)
   
 
