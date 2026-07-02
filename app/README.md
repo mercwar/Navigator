@@ -20,10 +20,11 @@
 Welcome to the MERCWAR AI ecosystem. 
 
 - This documentation app lets you explore every subsystem directly in your browser.
-- No downloads required.
-- No installs required.
-- No compilers required.
-- Mercwar AI is fully Browsable on github
+- Mercwar AI is public on github.
+- No downloads required !
+- No installs required !
+- No compilers required !
+- Anyone can browse Mercwar for free without needing to install.
 
 ## 📘 Table of Contents
 - [Getting Started](./README_Getting_Started.md)
