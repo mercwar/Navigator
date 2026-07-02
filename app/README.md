@@ -27,7 +27,7 @@ Welcome to the MERCWAR AI ecosystem.
 - Anyone can browse Mercwar for free without needing to install.
 
 ## 📘 Table of Contents
-- [Getting Started](./README_Getting_Started.md)
+- [Tutorial](./README_Getting_Started.md)
 - [Constellation & Portal Navigation](./README_Constellation.md)
 - [Cyborg Engine & Automation](./README_Cyborg.md)
 - [Fire‑Gem & FIRE‑PUNK Console](./README_FireGem.md)
