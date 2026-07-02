@@ -7,7 +7,8 @@
 -->
 
 ## 🔗 Avis GUID >>
-- [Home](../README.md) 
+- [Home](../README.md)
+- [TOC](./README.md)
 - [Next Up-Link: Git Browser](./README_GitBrowser.md)
   
 
@@ -45,7 +46,8 @@ The DHTML router swaps:
 ---
 
 ## 🔗 Avis GUID >>
-- [Home](../README.md) 
+- [Home](../README.md)
+- [TOC](./README.md)
 - [Next Up-Link: Git Browser](./README_GitBrowser.md)
   
 
