@@ -7,7 +7,8 @@
 -->
 
 ## 🔗 Avis GUID >>
-- [Home](../README.md) 
+- [Home](../README.md)
+- [TOC](./README.md)
 - [Next Up-Link: AVIS Standard](./README_AVIS.md)
   
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
@@ -38,7 +39,8 @@ Cyborg provides:
 ---
 
 ## 🔗 Avis GUID >>
-- [Home](../README.md) 
+- [Home](../README.md)
+- [TOC](./README.md)
 - [Next Up-Link: AVIS Standard](./README_AVIS.md)
   
 
