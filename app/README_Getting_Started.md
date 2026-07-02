@@ -8,7 +8,7 @@
 
 - [Home](../README.md)
 - [TOC](./README.md)
-- [Next Up-Link: Cyborg Engine](./README.md) 
+- [Next Up-Link: Constellation](./README_Constellation.md) 
 
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
 <img 
@@ -41,7 +41,7 @@ MERCWAR is a tactical, multi‑layer AI environment built for:
 
 - [Home](../README.md)
 - [TOC](./README.md)
-- [Next Up-Link: Cyborg Engine](./README.md) 
+- [Next Up-Link: Constellation](./README_Constellation.md) 
 
 
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com">
