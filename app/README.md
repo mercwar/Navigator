@@ -17,9 +17,13 @@
 
 # MERCWAR AI • CYBORG‑LIVE • Zero‑Installation Guide
 
-Welcome to the MERCWAR AI ecosystem.  
-This documentation app lets you explore every subsystem directly in your browser —  
-**no downloads, no installs, no compilers required.**
+Welcome to the MERCWAR AI ecosystem. 
+
+- This documentation app lets you explore every subsystem directly in your browser.
+- No downloads required.
+- No installs required.
+- No compilers required.
+- Mercwar AI is fully Browsable on github
 
 ## 📘 Table of Contents
 - [Getting Started](./README_Getting_Started.md)
