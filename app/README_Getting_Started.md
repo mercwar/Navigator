@@ -4,8 +4,11 @@
    PURPOSE: Introductory onboarding chapter  
    AUTHOR: Demon (CVBGOD)  
 -->
-- [Back to TOC](./README.md)
-  
+## 🔗 Avis GUID >>
+
+- [Home](../README.md)
+- [Next Up-Link: Cyborg Engine](./README.md) 
+
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
 <img 
     src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
@@ -31,7 +34,20 @@ MERCWAR is a tactical, multi‑layer AI environment built for:
 4. Inspect files using the Git‑Browser  
 5. Generate documentation using Navigator  
 
-## 🔗 Quick Links
-- [Constellation Navigation](./README_Constellation.md)
-- [Git‑Browser](./README_GitBrowser.md)
-- [Navigator Wizard](./README_Navigator.md)
+---
+
+## 🔗 Avis GUID >>
+
+- [Home](../README.md)
+- [Next Up-Link: Cyborg Engine](./README.md) 
+
+
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com">
+<img 
+    src="Copilot_20260702_022636.png" 
+    alt="Mercwar AI" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+---
