@@ -10,7 +10,7 @@
 ## 🔗 Avis GUID >>
 - [Home](../README.md)
 - [TOC](./README.md)
-- [Next Up-Link: Constellation Navigation](./README_Constellation.md)
+- [Next Up-Link: Navigator](./README_Navigator.md)
   
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
 <img 
@@ -39,7 +39,7 @@ This is the asset layer powering:
 ## 🔗 Avis GUID >>
 - [Home](../README.md)
 - [TOC](./README.md)
-- [Next Up-Link: Constellation Navigation](./README_Constellation.md)
+- [Next Up-Link: Navigator](./README_Navigator.md)
   
 
 
