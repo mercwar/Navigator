@@ -5,8 +5,12 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: Live file tree + raw viewer  
 -->
-- [Back to TOC](./README.md)
+
+## 🔗 Avis GUID >>
+- [Home](../README.md) 
+- [Next Up-Link: Cyborg Engine](./README_Cyborg.md)
   
+
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
 <img 
     src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
@@ -27,5 +31,21 @@ Browse your repositories directly in the browser.
 - Versioned ZIP access  
 - Ctrl+K asset filtering  
 
-## 🔗 Continue
-- [Cyborg Engine](./README_Cyborg.md)
+
+---
+
+## 🔗 Avis GUID >>
+- [Home](../README.md) 
+- [Next Up-Link: Cyborg Engine](./README_Cyborg.md)
+  
+
+
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com">
+<img 
+    src="Copilot_20260702_022636.png" 
+    alt="Mercwar AI" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+---
