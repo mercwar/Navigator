@@ -5,7 +5,11 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: Gallery + inventory sources  
 -->
-- [Back to TOC](./README.md)
+
+
+## 🔗 Avis GUID >>
+- [Home](../README.md) 
+- [Next Up-Link: Constellation Navigation](./README_Constellation.md)
   
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
 <img 
@@ -14,6 +18,7 @@
     style="width:100%; height:auto;"
 />
 </a>
+
 
 
 # Robo‑Knight Visual Universe
@@ -26,7 +31,24 @@ This is the asset layer powering:
 
 ## 🖼️ Asset Sources
 - Robo‑Knight‑Gallery  
-- robo‑knight‑inventory  
+- robo‑knight‑inventory
 
-## 🔗 Continue
-- [Constellation Navigation](./README_Constellation.md)
+---
+
+## 🔗 Avis GUID >>
+- [Home](../README.md) 
+- [Next Up-Link: Constellation Navigation](./README_Constellation.md)
+  
+
+
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com">
+<img 
+    src="Copilot_20260702_022636.png" 
+    alt="Mercwar AI" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+---
+
+
