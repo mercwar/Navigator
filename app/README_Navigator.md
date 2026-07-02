@@ -9,7 +9,7 @@
 
 - [Home](../README.md)
 - [TOC](./README.md)
-- [Next Up-Link: AVIS Standard](./README_AVIS.md) 
+- [Next Up-Link: Cyborg Live Git Browser](./README_GitBrowser.md) 
 
 
   
@@ -40,7 +40,7 @@ Navigator generates:
 
 - [Home](../README.md)
 - [TOC](./README.md)
-- [Next Up-Link: AVIS Standard](./README_AVIS.md) 
+- [Next Up-Link: Cyborg Live Git Browser](./README_GitBrowser.md) 
 
 
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com">
