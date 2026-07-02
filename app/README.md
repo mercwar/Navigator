@@ -39,7 +39,9 @@ This documentation app lets you explore every subsystem directly in your browser
     style="width:100%; height:auto;"
 />
 </a>
+
 ## 🌐 Zero‑Installation Promise
+
 Everything in MERCWAR can be explored:
 - In your browser  
 - On GitHub Pages  
