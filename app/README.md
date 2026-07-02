@@ -31,6 +31,14 @@ This documentation app lets you explore every subsystem directly in your browser
 - [Navigator Documentation Wizard](./README_Navigator.md)
 - [Git‑Browser & Repo Inspection](./README_GitBrowser.md)
 
+
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com">
+<img 
+    src="Copilot_20260702_022636.png" 
+    alt="Mercwar AI" 
+    style="width:100%; height:auto;"
+/>
+</a>
 ## 🌐 Zero‑Installation Promise
 Everything in MERCWAR can be explored:
 - In your browser  
