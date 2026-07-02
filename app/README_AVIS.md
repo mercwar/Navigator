@@ -9,7 +9,7 @@
 
 - [Home](../README.md)
 - [TOC](./README.md)
-- [Next Up-Link: Git‑Browser](./README_GitBrowser.md) 
+- [Next Up-Link: Robo Knight](./README_RoboKnight.md) 
 
 
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
@@ -40,7 +40,7 @@ AVIS defines how repositories must be structured.
 
 - [Home](../README.md)
 - [TOC](./README.md)
-- [Next Up-Link: Git‑Browser](./README_GitBrowser.md) 
+- [Next Up-Link: Robo Knight](./README_RoboKnight.md) 
 
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com">
 <img 
