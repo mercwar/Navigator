@@ -5,7 +5,13 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: JSON + Markdown generator  
 -->
-- [Back to TOC](./README.md)
+## 🔗 Avis GUID >>
+
+- [Home](../README.md)
+- [TOC](./README.md)
+- [Next Up-Link: AVIS Standard](./README_AVIS.md) 
+
+
   
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
 <img 
@@ -29,5 +35,20 @@ Navigator generates:
 3. View JSON output  
 4. View Markdown preview  
 
-## 🔗 Continue
-- [AVIS Standard](./README_AVIS.md)
+
+## 🔗 Avis GUID >>
+
+- [Home](../README.md)
+- [TOC](./README.md)
+- [Next Up-Link: AVIS Standard](./README_AVIS.md) 
+
+
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com">
+<img 
+    src="Copilot_20260702_022636.png" 
+    alt="Mercwar AI" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+---
