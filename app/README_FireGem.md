@@ -5,8 +5,12 @@
    AUTHOR: Demon (CVBGOD)  
    NOTES: Local offline LLM execution  
 -->
-- [Back to TOC](./README.md)
-  
+
+- [Home](../README.md)
+- [TOC](./README.md)
+- [Next Up-Link: AVIS Standard](./README_AVIS.md) 
+
+
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
 <img 
     src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
@@ -32,5 +36,20 @@ Fire‑Gem powers the FIRE‑PUNK console.
 3. Press FIRE‑PUNK  
 4. Review output  
 
-## 🔗 Continue
-- [Navigator Wizard](./README_Navigator.md)
+
+## 🔗 Avis GUID >>
+
+- [Home](../README.md)
+- [TOC](./README.md)
+- [Next Up-Link: AVIS Standard](./README_AVIS.md) 
+
+
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar01.byethost3.com">
+<img 
+    src="Copilot_20260702_022636.png" 
+    alt="Mercwar AI" 
+    style="width:100%; height:auto;"
+/>
+</a>
+
+---
