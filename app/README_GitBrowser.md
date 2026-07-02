@@ -9,7 +9,7 @@
 ## 🔗 Avis GUID >>
 - [Home](../README.md)
 - [TOC](./README.md)
-- [Next Up-Link: Cyborg Engine](./README_Cyborg.md)
+- [Next Up-Link: Mercwar AI](http://mercwar01.byethost3.com)
   
 
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
@@ -38,7 +38,7 @@ Browse your repositories directly in the browser.
 ## 🔗 Avis GUID >>
 - [Home](../README.md)
 - [TOC](./README.md)
-- [Next Up-Link: Cyborg Engine](./README_Cyborg.md)
+- [Next Up-Link: Mercwar AI](http://mercwar01.byethost3.com)
   
 
 
