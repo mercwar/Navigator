@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/favicon.ico</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/rru-bg.png</loc>
   </url>
   <url>
@@ -26,6 +29,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/index.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/favi-con.ico</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/rru_gx.css</loc>
