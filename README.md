@@ -25,9 +25,7 @@
 
 ✨ <a href="https://mercwar.github.io/Navigator/Navigator-v1.zip" title="Use Navigator Cyborg Live FREE!">   <strong>Click here</strong></a> to just download the zip.
 
-✨ <a href="https://mercwar.github.io/Navigator/index.html" title="Use Navigator Cyborg Live FREE!">
-  <strong>Click here</strong>
-</a> to open Navigator in your browser.
+✨ <a href="https://mercwar.github.io/Navigator/index.html" title="Use Navigator Cyborg Live FREE!">  <strong>Click here</strong></a> to open Navigator in your browser.
 
 <a href="https://mercwar.github.io/Navigator/index.html" title="Use Navigator Cyborg Live FREE!">
   <img src="new-wav.png" style="width:100%; height:auto;" />
