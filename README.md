@@ -61,8 +61,8 @@ a friendly, guided tour of the MERCWAR universe.
 <!-- NAVIGATOR APP PREVIEW IMAGE -->
 
 
-<a href="https://mercwar.github.io/Navigator/index.html" title="Use Cyborg Live EX MD FREE!">
-<img src="rru-bnr.png" width="100%" height="100%">
+<a href="https://mercwar.github.io/Cyborg-Live-Git-Browser" title="Use Cyborg Live Github Browser FREE!">
+<img src="banner-clip.png" width="100%" height="100%">
 </a>
 
 ## ⚙️ What Cyborg Live EX MD Is
