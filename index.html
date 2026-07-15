@@ -1,161 +1,41 @@
+<!-- ============================================================
+     FILENAME: index.html
+     AVIS-COMPONENT: ROOT-WRAPPER
+     ARTIFACT-ID: AV-ROOT-2026-I0
+     STATE-MATRIX-REF: Version 1/STATE/global.state
+     ============================================================ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Recursive README Template Designer</title>
-    <link rel="stylesheet" href="style.css?v=36">
-	<link rel="stylesheet" href="rru_gx.css?v=36">
+  <meta charset="UTF-8">
+  <title>Mercwar Navigator CYBORG LIVE</title>
+  <link rel="stylesheet" href="index.css?v=13">
+    <link rel="stylesheet" href="rru_gx.css?v=10">
+  <!-- Add this in your HTML head -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
 </head>
 <body>
-                <div id="gx-banner">
-  <a href="https://mercwar.github.io/Constellation" target="_top"><span><i>You are at Cyborg Live EX MD, next up-link Constellation Gateway </i></span></a>
+<!-- CYBORG LIVE MD HTML BROWSER Banner -->
+
+
+<div id="gx-banner">
+  <a href="https://mercwar.github.io/Constellation" target="_top"><span><i>Welcome to Tron's MercWar AI Academy, next up-link Constellation Gateway </i></span></a>
 </div>
-<div id="rru-header">
+  <div id="sidebar">
+    <h1>Navigator</h1>
+    <div id="menuContainer"><div id="md-list">
+      <!-- Dynamic menu will be injected here -->
+    </div></div>
+  </div>
 
-</div>
-<div id="load-sep"><div id="load-tron"></div></div>
-<div class="app">
+  <div id="mainContent">
+  <div id="content-bnr"></div>
+    <h2>File Viewer</h2>
+    <div id="fileContent">Select a file from the sidebar.</div>
+  </div>
 
-
-
-    <main>
-
-        <!-- ========================= -->
-        <!--   SIDEBAR USING TABLE     -->
-        <!-- ========================= -->
-        <table style="width:100%; height:100%; border-spacing:16px;">
-            <tr>
-
-                <!-- LEFT SIDEBAR -->
-                <td style="width:32%; vertical-align:top;">
-
-                    <table style="width:100%; border-spacing:12px;">
-
-                        <!-- Section Type -->
-                        <tr>
-                            <td class="block">
-                                <table style="width:100%; border-spacing:0;">
-                                    <tr>
-                                        <td style="width:45%; text-align:left; vertical-align:middle;">
-                                            <label for="sectionType">Select Section Type</label>
-                                        </td>
-                                        <td style="width:55%; text-align:right; vertical-align:middle;">
-                                            <select id="sectionType" style="width:100%;"></select>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-
-                        <!-- Personal Data Block -->
-                        <tr>
-                            <td class="block">
-                                <table style="width:100%; border-spacing:0;">
-                                    <tr>
-                                        <td style="width:45%; text-align:left; vertical-align:middle;">
-                                            <label for="personalType">Select Personal Data Block</label>
-                                        </td>
-                                        <td style="width:55%; text-align:right; vertical-align:middle;">
-                                            <select id="personalType" style="width:100%;"></select>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-
-                        <!-- Dynamic Form Area -->
-                        <tr>
-                            <td id="formArea" class="block"></td>
-                        </tr>
-
-                        <!-- Add Section Button -->
-                        <tr>
-                            <td class="block">
-                                <table style="width:100%; border-spacing:0;">
-                                    <tr>
-                                        <td style="width:45%; text-align:left; vertical-align:middle;">
-                                            <span>Sections</span>
-                                        </td>
-                                        <td style="width:55%; text-align:right; vertical-align:middle;">
-                                            <button id="addSectionBtn" style="width:100%;">Add to Root</button>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-
-                        <!-- Clear All Button -->
-                        <tr>
-                            <td class="block">
-                                <table style="width:100%; border-spacing:0;">
-                                    <tr>
-                                        <td style="width:45%; text-align:left; vertical-align:middle;">
-                                            <span>Reset</span>
-                                        </td>
-                                        <td style="width:55%; text-align:right; vertical-align:middle;">
-                                            <button id="clearAllBtn" style="width:100%;">Clear All</button>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-
-                    </table>
-
-                </td>
-
-                <!-- RIGHT CONTENT -->
-                <td style="width:68%; vertical-align:top;">
-
-                    <table style="width:100%; border-spacing:12px;">
-
-                        <!-- JSON COLLAPSIBLE -->
-                        <tr>
-                            <td class="block">
-                                <details open>
-                                    <summary style="cursor:pointer; font-size:16px; font-weight:bold;">
-                                        README JSON Output
-                                    </summary>
-                                    <pre id="jsonOutput" class="json-output">{}</pre>
-                                </details>
-                            </td>
-                        </tr>
-
-                        <!-- TREE PREVIEW -->
-                        <tr>
-                            <td class="block">
-                                <details open>
-                                    <summary style="cursor:pointer; font-size:16px; font-weight:bold;">
-                                        Recursive Structure Preview
-                                    </summary>
-                                    <div id="treePreview" class="tree-preview"></div>
-                                </details>
-                            </td>
-                        </tr>
-
-                        <!-- MARKDOWN / HTML PREVIEW -->
-                        <tr>
-                            <td class="block">
-                                <details open>
-                                    <summary style="cursor:pointer; font-size:16px; font-weight:bold;">
-                                        README Markdown Preview
-                                    </summary>
-                                    <pre id="mdPreview" class="md-output"></pre>
-                                </details>
-                            </td>
-                        </tr>
-
-                    </table>
-
-                </td>
-
-            </tr>
-        </table>
-
-    </main>
-
-</div>
-
-<script src="app.js?v=36"></script>
+  <script src="index.js?v=13"></script>
 </body>
 </html>
