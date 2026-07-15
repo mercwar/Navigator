@@ -18,6 +18,11 @@ const files = [];
 let conn = {};
 let dirs = {};
 
+
+let activePath = null;
+let lastFetchedFileContent = null;
+
+
 async function loadconfig() {
   try {
     const response = await fetch("config.json");
@@ -123,7 +128,6 @@ function buildMenu() {
     grouped[file.category].push(file);
   });
 
-  // Base URL for GitHub Pages, using repo vars from conn
   const baseUrl = `https://${conn.user}.github.io/${conn.repo}/`;
 
   // Create collapsible sections
@@ -142,14 +146,23 @@ function buildMenu() {
 
     grouped[category].forEach(file => {
       const link = document.createElement("a");
-      // Build full GitHub Pages URL
       const fullPath = `${baseUrl}${file.source}/${file.name}`;
       link.href = fullPath;
       link.textContent = file.name;
+
       link.onclick = e => {
         e.preventDefault();
+
+        // Clear previous active states
+        document.querySelectorAll(".menu-content a").forEach(a => a.classList.remove("active"));
+
+        // Mark this link active
+        link.classList.add("active");
+
+        // Load file into viewer
         loadFile("html_obj.html", fullPath);
       };
+
       content.appendChild(link);
     });
 
@@ -161,10 +174,6 @@ function buildMenu() {
 
 
 
-
-
-let activePath = null;
-let lastFetchedFileContent = null;
 
 function injectPrismDependencies() {
   if (document.getElementById("prism-core-lib")) return;
