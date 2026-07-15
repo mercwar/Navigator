@@ -23,6 +23,10 @@
 
 ## 📘 **Visit the Official Navigator**
 
+✨ <a href="https://mercwar.github.io/Navigator/Navigator-v1.zip" title="Use Navigator Cyborg Live FREE!">
+  <strong>Click here</strong>
+</a> to just download the zip.
+
 ✨ <a href="https://mercwar.github.io/Navigator/index.html" title="Use Navigator Cyborg Live FREE!">
   <strong>Click here</strong>
 </a> to open Navigator in your browser.
