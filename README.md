@@ -116,8 +116,8 @@ Navigator is the **starting point** for learning MERCWAR, connecting accounts, a
 
 ---
 
-<a href="https://mercwar.github.io/Navigator/index.html" title="Use Cyborg Live EX MD FREE!">
-<img src="rru-nav.png" width="100%" height="100%">
+<a href="https://mercwar.github.io/Navigator/index.html" title="Use Cyborg Live FREE!">
+<img src="image_2026-07-15_080540106.png" width="100%" height="100%">
 </a>
 
 ## ⚡ **Core Features**
