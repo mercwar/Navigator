@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #02050c;
+  font-family: Segoe UI, Arial, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at center, #08172d 0%, #030812 55%, #000 100%);
+}
+
+/* Stars */
+#stars {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  opacity: .8;
+  animation: twinkle 3s infinite alternate;
+}
+
+@keyframes twinkle {
+  from { opacity: .2; }
+  to { opacity: 1; transform: scale(2); }
+}
+
+/* Banner fixed at top */
+#content-bnr {
+  position: fixed;
+  top: 0;
+  left: 260px; /* account for sidebar */
+  width: calc(100vw - 260px);
+  height: 220px; /* consistent height */
+  background: transparent;
+  z-index: 10;
+}
+
+/* Splash */
+#splash {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Atom Frame */
+.atom {
+  position: relative;
+  width: 520px;
+  height: 520px;
+  perspective: 1000px;
+}
+
+/* Nucleus */
+.nucleus {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: -40px;
+  margin-top: -40px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff 0%, #73d4ff 20%, #00a2ff 55%, #003d88 100%);
+  box-shadow: 0 0 20px #00bfff, 0 0 60px #00bfff, 0 0 120px cyan;
+  animation: pulse 2s infinite ease-in-out;
+  z-index: 10;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(.9); }
+  50% { transform: scale(1.1); }
+}
+
+/* Orbit Rings */
+.orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 360px;
+  height: 120px;
+  margin-left: -180px;
+  margin-top: -60px;
+  border: 2px solid rgba(0,220,255,.35);
+  border-radius: 50%;
+  transform-style: preserve-3d;
+}
+
+.orbit1 { animation: spin1 6s linear infinite; }
+.orbit2 { animation: spin2 8s linear infinite; }
+.orbit3 { animation: spin3 7s linear infinite; }
+.orbit4 { animation: spin4 9s linear infinite; }
+
+@keyframes spin1 { from { transform: rotateX(45deg) rotateY(15deg) rotateZ(0); } to { transform: rotateX(45deg) rotateY(15deg) rotateZ(360deg); } }
+@keyframes spin2 { from { transform: rotateX(65deg) rotateY(45deg) rotateZ(0); } to { transform: rotateX(65deg) rotateY(45deg) rotateZ(360deg); } }
+@keyframes spin3 { from { transform: rotateX(65deg) rotateY(-45deg) rotateZ(0); } to { transform: rotateX(65deg) rotateY(-45deg) rotateZ(360deg); } }
+@keyframes spin4 { from { transform: rotateX(85deg) rotateY(90deg) rotateZ(0); } to { transform: rotateX(85deg) rotateY(90deg) rotateZ(360deg); } }
+
+/* Electron */
+.electron {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #00ffff;
+  box-shadow: 0 0 10px cyan, 0 0 25px cyan, 0 0 50px #00ffff;
+  margin-left: -8px;
+  margin-top: -8px;
+}
+
+/* Title and Footer inside banner */
+.title {
+  position: absolute;
+  width: 100%;
+  bottom: 80px;
+  text-align: center;
+}
+
+.title h1 {
+  color: white;
+  font-size: 52px;
+  letter-spacing: 8px;
+  text-shadow: 0 0 20px cyan, 0 0 50px blue;
+}
+
+.title h2 {
+  color: #79d8ff;
+  margin-top: 10px;
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+
+.loading {
+  width: 420px;
+  height: 6px;
+  margin: 40px auto 0;
+  background: #071521;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #00bfff;
+}
+
+.bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #00ffff, #008cff, #ffffff);
+  animation: load 5s linear forwards;
+}
+
+@keyframes load { 0% { width: 0%; } 100% { width: 100%; } }
+
+.percent {
+  color: white;
+  margin-top: 18px;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 18px;
+  width: 100%;
+  text-align: center;
+  color: #4fc3ff;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+/* Main content pushed below banner */
+#mainContent {
+  flex: 1;
+  margin-top: 220px; /* same as banner height */
+  overflow-y: auto;
+  position: relative;
+  z-index: 1;
+}
+
+#content {
+  width: 100%;
+  height: calc(100vh - 220px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+  background: transparent !important;
+  box-sizing: border-box;
+}
