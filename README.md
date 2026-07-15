@@ -1,10 +1,6 @@
 
 ## 🌀 **Navigator**
-#### Cyborg Live <a target="_self"
-   title="CLICK HERE to ENTER the GATEWAY FREE!"
-   href="https://mercwar.github.io/Constellation/index.html">
-  Portal
-</a>
+#### Cyborg Live  <a target="_self"   title="CLICK HERE to ENTER the GATEWAY FREE!"   href="https://mercwar.github.io/Constellation/index.html">  Portal</a>
 
 <!--
   AIFVS-ARTIFACT
