@@ -1,58 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/Test/index.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/Test/style.css</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/index.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/Navigator-v1.zip</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/app.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/MD/example.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/google77a4b19e8f99751c.html</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/new-wav.png</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/favicon.ico</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/new-wav.png</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/Navigator-v1.1.zip</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/favi-con.ico</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/.github/workflows/tron-site.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/home.md</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/image_2026-07-15_080540106.png</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/banner-clip.png</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/html_obj.html</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/rru-bg.png</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/home.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/Navigator-v1.zip</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/HTML/Example.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/HTML/Mercwar.html</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/HTML/cvbgod.js</loc>
@@ -61,49 +34,76 @@
     <loc>https://github.com/mercwar/Navigator/blob/main/HTML/cvbgod.css</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/rru_gx.css</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/HTML/Mercwar.html</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/rru-bnr.png</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/rru-nav.png</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/image_2026-07-15_080540106.png</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/style.css</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/config.json</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/Navigator-v1.1.zip</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/LICENSE</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/index.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/app.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/html_obj.html</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/gateway.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/rru-bnr.png</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/MD/example.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/Test/style.css</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/Test/index.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/config.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/style.css</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/google77a4b19e8f99751c.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/index.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/favi-con.ico</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/index.css</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/index.js</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/rru_gx.css</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/rru-bg.png</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/app/Copilot_20260702_022636.png</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/app/README_Getting_Started.md</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/app/README_RoboKnight.md</loc>
-  </url>
-  <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/app/README.md</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/app/README_GitBrowser.md</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/app/README_Cyborg.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/app/README_FireGem.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/Navigator/blob/main/app/README_AVIS.md</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/Navigator/blob/main/app/CVBGOD</loc>
@@ -115,15 +115,15 @@
     <loc>https://github.com/mercwar/Navigator/blob/main/app/README_Constellation.md</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/app/Copilot_20260702_022636.png</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/app/README_GitBrowser.md</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/app/README_AVIS.md</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/app/README_RoboKnight.md</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/app/README_Cyborg.md</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/rru-nav.png</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/Navigator/blob/main/app/README_FireGem.md</loc>
+    <loc>https://github.com/mercwar/Navigator/blob/main/.github/workflows/tron-site.yml</loc>
   </url>
 </urlset>
