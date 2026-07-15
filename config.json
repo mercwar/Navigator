@@ -6,6 +6,6 @@
   },
   "dirs": {
 	"HTML": "HTML",
-	"HTML": "MD"
+	"MD": "MD"
   }
 }
