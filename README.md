@@ -27,10 +27,9 @@ to open the Navigator App.
 
 <br/>
 
-<a href="app/README.md" title="Use Cyborg Live EX MD FREE!">
+<a href="mercwar.github.io/Navigator/index.html" title="Use Navigator Cyborg Live FREE!">
   <img
-    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%2010/Copilot_20260627_053736.png"
-    alt="Navigator App Preview"
+    src="new-wav.png"
     style="width:100%; height:auto;"
   />
 </a>
