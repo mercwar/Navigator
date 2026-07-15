@@ -178,7 +178,7 @@ top:1px;
   /* Full height minus any header/footer if needed */
   height: 36%;
 
-  background-image: url("new-wav.png?v=2");
+  background-image: url("new-wav.png?v=1");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: contain;   /* shrink to fit without cutting off */

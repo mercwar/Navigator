@@ -1,7 +1,12 @@
 {
+  "conn": {
+    "user": "mercwar",
+    "repo": "Navigator",
+    "branch": "main"
+  },
   "dirs": {
-    "TABS": "TABS/",
-    "AVIS": "TABS/RES/AVIS",
-    "ROBOTS": "TABS/RES/ROBOTS"
+    "HTML": "HTML/",
+    "MD": "MD/"
+    
   }
 }

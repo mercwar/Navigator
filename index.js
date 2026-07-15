@@ -15,9 +15,10 @@
 
 const files = [];
 
+let conn = {};
 let dirs = {};
-/* Load directory paths from config.json */
-async function loadDirsFromConfig() {
+
+async function loadconfig() {
   try {
     const response = await fetch("config.json");
     if (!response.ok) {
@@ -25,28 +26,30 @@ async function loadDirsFromConfig() {
       return {};
     }
 
-    const config = await response.json();
+    const settings = await response.json();
 
-    // Validate structure
-    if (!config.dirs || typeof config.dirs !== "object") {
-      console.warn("Invalid config.json format: missing 'dirs' object");
-      return {};
-    }
+    // assign globals
+    conn = settings.conn || {};
+    dirs = settings.dirs || {};
 
-    console.log("Loaded directories from config:", config.dirs);
-    return config.dirs;
+    console.log("Config loaded:", settings);
+
+    // return dirs so startup can assign it
+    return dirs;
   } catch (err) {
-    console.error("Error reading config.json:", err);
+    console.error("Error loading config.json:", err);
     return {};
   }
 }
 
-// GitHub API fetch for directory contents
+
 async function do_git(path) {
-  const user = "mercwar";
-  const repo = "NEXUS";
-  const branch = "main";
-  const url = `https://api.github.com/repos/${user}/${repo}/contents/${path}?ref=${branch}`;
+  if (!conn.user || !conn.repo || !conn.branch) {
+    console.error("Repo connection not loaded.");
+    return [];
+  }
+
+  const url = `https://api.github.com/repos/${conn.user}/${conn.repo}/contents/${path}?ref=${conn.branch}`;
 
   try {
     const response = await fetch(url);
@@ -54,6 +57,7 @@ async function do_git(path) {
       console.error("GitHub API error:", response.statusText);
       return [];
     }
+
     const data = await response.json();
     return Array.isArray(data)
       ? data.filter(item => item.type === "file").map(item => item.name)
@@ -64,17 +68,31 @@ async function do_git(path) {
   }
 }
 
+
+
+
 // Fill files array from dirs
 async function FillFiles() {
-  for (const [key, value] of Object.entries(dirs)) {
-    const list = await do_git(value);
-    list.forEach(fname => {
-      files.push({ name: fname, source: value, category: key });
-    });
+  if (!dirs || typeof dirs !== "object") {
+    console.warn("Dirs not loaded, skipping FillFiles.");
+    return;
   }
+
+  for (const [key, value] of Object.entries(dirs)) {
+    try {
+      const list = await do_git(value);
+      list.forEach(fname => {
+        files.push({ name: fname, source: value, category: key });
+      });
+    } catch (err) {
+      console.error(`Error fetching files for ${key}:`, err);
+    }
+  }
+
   RenderMenu();
   buildMenu();
 }
+
 
 // Render flat list of files
 function RenderMenu() {
@@ -90,7 +108,6 @@ function RenderMenu() {
     menu.appendChild(li);
   });
 }
-
 function buildMenu() {
   const menuContainer = document.getElementById("menuContainer");
   if (!menuContainer) {
@@ -106,8 +123,8 @@ function buildMenu() {
     grouped[file.category].push(file);
   });
 
-  // Base URL for GitHub Pages
-  const baseUrl = "https://mercwar.github.io/NEXUS/";
+  // Base URL for GitHub Pages, using repo vars from conn
+  const baseUrl = `https://${conn.user}.github.io/${conn.repo}/`;
 
   // Create collapsible sections
   for (const category in grouped) {
@@ -141,6 +158,7 @@ function buildMenu() {
     menuContainer.appendChild(section);
   }
 }
+
 
 
 
@@ -275,11 +293,10 @@ function renderPrismCode(rawCode, path) {
 }
 
 
-
 document.addEventListener("DOMContentLoaded", async () => {
   injectPrismDependencies();
   
-dirs = await loadDirsFromConfig(); // load from config.json
+  dirs = await loadconfig(); // load from config.json
 
   if (!document.getElementById("menuContainer")) {
     console.error("#menuContainer element missing in HTML");
