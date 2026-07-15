@@ -69,10 +69,8 @@ Edit the `config.json` file to point Navigator at your repos:
     "branch": "main"
   },
   "dirs": {
-    "nexus": "NEXUS",
-    "constellation": "Constellation",
-    "roboknight": "Robo-Knight-Gallery",
-    "firegem": "Fire-Gem"
+	"HTML": "HTML",
+	"HTML": "MD"
   }
 }
 ```
