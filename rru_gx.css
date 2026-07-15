@@ -7,7 +7,7 @@ a {
 #gx-banner {
     position: fixed;                         /* stays in frame */
     left: calc(72% - 120px);                 /* % anchor + pixel correction */
-    top: calc(1% + 18px);
+    top: calc(.2 + 8px);
 
     transform: scale(0.01);                  /* tiny blip */
     transform-origin: top left;

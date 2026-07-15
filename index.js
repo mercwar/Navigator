@@ -233,7 +233,6 @@ function getPrismLanguageClass(path) {
 
   return "language-none";
 }
-
 function loadFile(wrapperUrl, sourceUrl) {
   activePath = sourceUrl;
   fetch(wrapperUrl)
@@ -252,12 +251,23 @@ function loadFile(wrapperUrl, sourceUrl) {
       const langClass = getPrismLanguageClass(sourceUrl);
 
       if (langClass === "render-html") {
-        viewDiv.innerHTML = sourceCode; // let browser render HTML
+        // Extract only <head> and <body> content
+        const headMatch = sourceCode.match(/<head[^>]*>([\s\S]*?)<\/head>/i);
+        const bodyMatch = sourceCode.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+
+        const headContent = headMatch ? headMatch[1] : "";
+        const bodyContent = bodyMatch ? bodyMatch[1] : "";
+
+        // Render stripped content safely
+        viewDiv.innerHTML = `
+          
+          <div class="html-body">${bodyContent}</div>
+        `;
         return;
       }
 
       if (langClass === "render-markdown") {
-        viewDiv.innerHTML = marked.parse(sourceCode); // requires marked.js
+        viewDiv.innerHTML = marked.parse(sourceCode);
         return;
       }
 
@@ -266,7 +276,7 @@ function loadFile(wrapperUrl, sourceUrl) {
         return;
       }
 
-      // Default: Prism highlight
+      // Default: Prism highlight for code/text
       const safe = sourceCode
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
@@ -284,6 +294,7 @@ function loadFile(wrapperUrl, sourceUrl) {
       console.error("loadFile error:", err);
     });
 }
+
 
 
 
