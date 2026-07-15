@@ -1,10 +1,11 @@
 {
   "conn": {
     "user": "mercwar",
-    "repo": "NAVIGATOR-LLM-ACADEMY",
+    "repo": "Navigator",
     "branch": "main"
   },
   "dirs": {
-	"TEST": "Test"
+	"HTML": "HTML",
+	"HTML": "MD"
   }
 }
