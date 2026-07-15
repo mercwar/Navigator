@@ -1,287 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>MercWar AI - Atomic Splash</title>
+# MercWar AI Browser
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+## Overview
+The MercWar AI Browser combines futuristic visuals with practical navigation. It integrates an **[atomic splash banner](ca://s?q=Explain_atomic_splash_banner)**, a **[sidebar menu](ca://s?q=Sidebar_navigation_in_browser)**, and a **[content viewer](ca://s?q=Content_viewer_frame)** into a unified interface.
 
-html,body{
-    width:100%;
-    height:100%;
-    overflow:hidden;
-    background:#02050c;
-    font-family:Segoe UI,Arial,sans-serif;
-}
+## Core Components
+- **Banner Frame**  
+  Fixed at the top, height of 220px. Contains the animated nucleus and orbit rings, title, and footer text.  
+  Purpose: Symbolizes AI initialization while staying visually contained.
 
-body{
-    background: radial-gradient(circle at center,#08172d 0%,#030812 55%,#000 100%);
-}
+- **Sidebar Navigation**  
+  Width of 260px, scrollable. Collapsible sections group files by category.  
+  Purpose: Provides quick access to directories loaded from GitHub.
 
-/* Stars */
-#stars{
-    position:absolute;
-    inset:0;
-    overflow:hidden;
-}
+- **Content Viewer**  
+  Flexible scrollable area below the banner.  
+  Purpose: Displays files without overlapping the banner or sidebar.
 
-.star{
-    position:absolute;
-    width:2px;
-    height:2px;
-    background:white;
-    border-radius:50%;
-    opacity:.8;
-    animation:twinkle 3s infinite alternate;
-}
+- **Starfield Background**  
+  Animated twinkling stars confined to the banner frame.  
+  Purpose: Adds depth and immersion without interfering with other tags.
 
-@keyframes twinkle{
-    from{opacity:.2;}
-    to{
-        opacity:1;
-        transform:scale(2);
-    }
-}
+## Technical Adjustments
+- Scoped CSS ensures the splash animation stays inside its frame.  
+- `conn` and `dirs` variables from `config.json` dynamically build GitHub Pages URLs.  
+- Responsive design keeps banner and viewer separated across devices.
 
-/* Splash */
-#splash{
-    position:absolute;
-    inset:0;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
+## Benefits
+- **Visual Appeal**: Neon atomic animation with immersive starfield.  
+- **Functional Separation**: Banner, sidebar, and viewer operate independently.  
+- **Dynamic Loading**: Files fetched from GitHub render seamlessly in the viewer.
 
-/* Atom Frame */
-.atom{
-    position:relative;
-    width:520px;
-    height:520px;
-    perspective: 1000px;
-}
-
-/* Nucleus */
-.nucleus{
-    position:absolute;
-    left:50%;
-    top:50%;
-    width:80px;
-    height:80px;
-    margin-left:-40px;
-    margin-top:-40px;
-    border-radius:50%;
-    background: radial-gradient(circle,#fff 0%,#73d4ff 20%,#00a2ff 55%,#003d88 100%);
-    box-shadow: 0 0 20px #00bfff, 0 0 60px #00bfff, 0 0 120px cyan;
-    animation:pulse 2s infinite ease-in-out;
-    z-index: 10;
-}
-
-@keyframes pulse{
-    0%, 100% { transform:scale(.9); }
-    50% { transform:scale(1.1); }
-}
-
-/* Orbit Rings */
-.orbit{
-    position:absolute;
-    left:50%;
-    top:50%;
-    width:360px;
-    height:120px;
-    margin-left:-180px;
-    margin-top:-60px;
-    border:2px solid rgba(0,220,255,.35);
-    border-radius:50%;
-    transform-style:preserve-3d;
-}
-
-/* FIXED: Unified 3D plane offsets with explicit continuous rotations */
-.orbit1{
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    animation: spin1 6s linear infinite;
-}
-
-.orbit2{
-    transform: rotateX(65deg) rotateY(30deg) rotateZ(0deg);
-    animation: spin2 8s linear infinite;
-}
-
-.orbit3{
-    transform: rotateX(65deg) rotateY(-30deg) rotateZ(0deg);
-    animation: spin3 7s linear infinite;
-}
-
-.orbit4{
-    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
-    animation: spin4 9s linear infinite;
-}
-
-@keyframes spin1 {
-    from { transform: rotateX(45deg) rotateY(15deg) rotateZ(0deg); }
-    to { transform: rotateX(45deg) rotateY(15deg) rotateZ(360deg); }
-}
-
-@keyframes spin2 {
-    from { transform: rotateX(65deg) rotateY(45deg) rotateZ(0deg); }
-    to { transform: rotateX(65deg) rotateY(45deg) rotateZ(360deg); }
-}
-
-@keyframes spin3 {
-    from { transform: rotateX(65deg) rotateY(-45deg) rotateZ(0deg); }
-    to { transform: rotateX(65deg) rotateY(-45deg) rotateZ(360deg); }
-}
-
-@keyframes spin4 {
-    from { transform: rotateX(85deg) rotateY(90deg) rotateZ(0deg); }
-    to { transform: rotateX(85deg) rotateY(90deg) rotateZ(360deg); }
-}
-
-/* Electron Shell Visuals */
-.electron{
-    position:absolute;
-    width:16px;
-    height:16px;
-    border-radius:50%;
-    background:#00ffff;
-    box-shadow: 0 0 10px cyan, 0 0 25px cyan, 0 0 50px #00ffff;
-    /* FIXED: Position electrons relative to ring bounding sizes */
-    margin-left: -8px;
-    margin-top: -8px;
-}
-
-/* Interface Layout elements */
-.title{
-    position:absolute;
-    width:100%;
-    bottom:80px;
-    text-align:center;
-}
-
-.title h1{
-    color:white;
-    font-size:52px;
-    letter-spacing:8px;
-    text-shadow: 0 0 20px cyan, 0 0 50px blue;
-}
-
-.title h2{
-    color:#79d8ff;
-    margin-top:10px;
-    letter-spacing:10px;
-    font-weight:300;
-}
-
-.loading{
-    width:420px;
-    height:6px;
-    margin:40px auto 0;
-    background:#071521;
-    border-radius:20px;
-    overflow:hidden;
-    border:1px solid #00bfff;
-}
-
-.bar{
-    height:100%;
-    width:0%;
-    background:linear-gradient(90deg,#00ffff,#008cff,#ffffff);
-    animation:load 5s linear forwards;
-}
-
-@keyframes load{
-    0%{width:0%;}
-    100%{width:100%;}
-}
-
-.percent{
-    color:white;
-    margin-top:18px;
-    font-size:18px;
-    letter-spacing:4px;
-}
-
-.footer{
-    position:absolute;
-    bottom:18px;
-    width:100%;
-    text-align:center;
-    color:#4fc3ff;
-    font-size:14px;
-    letter-spacing:3px;
-}
-</style>
-</head>
-<body>
-
-<div id="stars"></div>
-
-<div id="splash">
-  <div class="atom">
-    <div class="nucleus"></div>
-    
-    <!-- FIXED: Paired electrons directly inside structural orbit tracks -->
-    <div class="orbit orbit1">
-        <div class="electron" style="left:0%; top:50%;"></div>
-        <div class="electron" style="left:100%; top:50%;"></div>
-    </div>
-    <div class="orbit orbit2">
-        <div class="electron" style="left:0%; top:50%;"></div>
-        <div class="electron" style="left:100%; top:50%;"></div>
-    </div>
-    <div class="orbit orbit3">
-        <div class="electron" style="left:0%; top:50%;"></div>
-        <div class="electron" style="left:100%; top:50%;"></div>
-    </div>
-    <div class="orbit orbit4">
-        <div class="electron" style="left:0%; top:50%;"></div>
-        <div class="electron" style="left:100%; top:50%;"></div>
-    </div>
-  </div>
-</div>
-
-<div class="title">
-    <h1>MERCWAR AI</h1>
-    <h2>ATOMIC CORE INITIALIZATION</h2>
-    <div class="loading">
-        <div class="bar"></div>
-    </div>
-    <div class="percent" id="percent">0%</div>
-</div>
-
-<div class="footer">
-    Initializing Neural Systems • Loading Constellation • Connecting AI Matrix
-</div>
-
-<script>
-// Star Field Generator
-const stars = document.getElementById("stars");
-for(let i=0; i<250; i++){
-    let s = document.createElement("div");
-    s.className = "star";
-    s.style.left = Math.random()*100 + "%";
-    s.style.top = Math.random()*100 + "%";
-    s.style.animationDelay = Math.random()*4 + "s";
-    stars.appendChild(s);
-}
-
-// Numerical Loading Sequence Update Loop
-let p = 0;
-const txt = document.getElementById("percent");
-const timer = setInterval(() => {
-    p++;
-    txt.innerHTML = p + "%";
-    if(p >= 100){
-        clearInterval(timer);
-        txt.innerHTML = "SYSTEM READY";
-    }
-}, 50);
-</script>
-
-</body>
-</html>
+## Conclusion
+The MercWar AI Browser delivers a futuristic interface with clear separation of elements. The atomic splash remains a contained banner, while the viewer renders content in its own frame, ensuring usability and style coexist.
