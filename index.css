@@ -114,7 +114,7 @@ html, body {
 }
 
 .menu-content a.active::before {
-  content: "▶";
+
   color: #00f7ff;
 }
 
