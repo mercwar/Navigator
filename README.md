@@ -66,7 +66,7 @@ Edit the `config.json` file to point Navigator at your repos:
   },
   "dirs": {
 	"HTML": "HTML",
-	"HTML": "MD"
+	"MD": "MD"
   }
 }
 ```
